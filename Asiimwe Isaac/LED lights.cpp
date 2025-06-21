@@ -4,7 +4,7 @@
 #define LED_PIN 2  // Built-in LED on most ESP32 boards
 
 // PWM configuration
-const int pwmChannel = 0;
+const int pwmChannel = 0;// the led is on channel of the PWM controller
 const int pwmFreq = 5000;        // 5 kHz PWM frequency
 const int pwmResolution = 8;     // 8-bit resolution: 0-255 brightness
 
@@ -32,7 +32,7 @@ void loop() {
     ledcWrite(pwmChannel, brightness);
     Serial.print("Brightness ↓: ");
     Serial.println(brightness);
-    delay(30);
+    delay(300000);
   }
 
   delay(500);
