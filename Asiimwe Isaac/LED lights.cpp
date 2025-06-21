@@ -24,7 +24,7 @@ void loop() {
     ledcWrite(pwmChannel, brightness);
     Serial.print("Brightness ↑: ");
     Serial.println(brightness);
-    delay(300);
+    delay(30);
   }
 
   // Gradually decrease brightness
