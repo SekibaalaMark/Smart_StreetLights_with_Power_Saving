@@ -35,5 +35,5 @@ void loop() {
     delay(300);
   }
 
-  delay(500);
+  delay(500);// Pause before next cycle
 }
