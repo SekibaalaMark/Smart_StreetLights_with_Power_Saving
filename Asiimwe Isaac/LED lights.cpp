@@ -5,8 +5,8 @@
 
 // PWM configuration
 const int pwmChannel = 0;// the led is on channel of the PWM controller
-const int pwmFreq = 500;        // 5 kHz PWM frequency
-const int pwmResolution = 8;     // 8-bit resolution: 0-255 brightness
+const int pwmFreq = 5000;        // 5 kHz PWM frequency
+const int pwmResolution = 9;     // 8-bit resolution: 0-255 brightness
 
 void setup() {
   Serial.begin(115200);
