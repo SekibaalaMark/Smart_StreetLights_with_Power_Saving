@@ -15,7 +15,7 @@ void setup() {
   ledcSetup(pwmChannel, pwmFreq, pwmResolution);
   ledcAttachPin(LED_PIN, pwmChannel);
 
-  Serial.println("💡 LED PWM Brightness Control Initialized");
+  Serial.println(" LED PWM Brightness Control Initialized");
 }
 
 void loop() {
