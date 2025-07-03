@@ -49,9 +49,8 @@ Our Smart Streetlights system addresses these inefficiencies using:
 | Sekibala Mark                | 24/U/10307/PS      | 24007/11007     |
 | Akello Liuan                 | 24/U/0134/PS       | 24007/3144      |
 | Asimme Isaac                 | 24/U/0366/PS       | 24007/0366      |
-| Namubiru Kirabo Bakyaita    | 24/U/1038          | 24007/1038      |
-| Namayania Mary              | 24/U/09946/PS      | 24007/09946     |
-| Prechard                    | -                  | -               |
+| Namubiru Kirabo Bakyaita     | 24/U/1038          | 24007/1038      |
+| Namayanja Mary Prechard      | 24/U/09946/PS      | 24007/09946     |
 
 ---
 
@@ -60,12 +59,15 @@ Our Smart Streetlights system addresses these inefficiencies using:
 ### 📋 Prerequisites
 
 - **Hardware**:  
-  - Microcontroller ESP32  
+  - Microcontroller --ESP32  
   - Light sensor (LDR)  
   - Motion sensor (PIR sensor 
   - RTC Module (DS3231)  
-  - LED lights  
+  - 10mm LED lights  
   - Power supply
+  - Potentiometer
+  - 100 ohms resistors
+  - Mosfet
 
 - **Software**:  
   - Arduino IDE 
