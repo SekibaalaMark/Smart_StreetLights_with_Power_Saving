@@ -60,15 +60,15 @@ Our Smart Streetlights system addresses these inefficiencies using:
 ### 📋 Prerequisites
 
 - **Hardware**:  
-  - Microcontroller (e.g., ESP32, Arduino, Raspberry Pi)  
+  - Microcontroller ESP32  
   - Light sensor (LDR)  
-  - Motion sensor (e.g., PIR sensor)  
-  - RTC Module (e.g., DS3231)  
+  - Motion sensor (PIR sensor 
+  - RTC Module (DS3231)  
   - LED lights  
   - Power supply
 
 - **Software**:  
-  - Arduino IDE / PlatformIO  
+  - Arduino IDE 
   - Required libraries (Wire, RTClib, etc.)
 
 ---
@@ -77,4 +77,4 @@ Our Smart Streetlights system addresses these inefficiencies using:
 
 1. **Clone this repository**:
    ```bash
-   git clone https://github.com/.git
+   git clone https://github.com/SekibaalaMark/Smart_StreetLights_with_Power_Saving.git
