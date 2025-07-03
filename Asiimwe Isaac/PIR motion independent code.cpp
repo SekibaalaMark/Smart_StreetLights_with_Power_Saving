@@ -10,7 +10,7 @@ void setup() {
   pinMode(PIR_PIN, INPUT);      // PIR sensor as input
   pinMode(LED_PIN, OUTPUT);     // LED as output
 
-  Serial.println("🚨 PIR Motion Detection Initialized (ESP32)");
+  Serial.println(" PIR Motion Detection Initialized (ESP32)");
 }
 
 void loop() {
