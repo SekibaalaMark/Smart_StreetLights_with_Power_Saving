@@ -44,13 +44,13 @@ Our Smart Streetlights system addresses these inefficiencies using:
 
 ## 👥 Group Members
 
-| Name                         | Registration No.   | Student No.     |
-|------------------------------|--------------------|-----------------|
-| Sekibala Mark                | 24/U/10307/PS      | 24007/11007     |
-| Akello Liuan                 | 24/U/0134/PS       | 24007/3144      |
-| Asimme Isaac                 | 24/U/0366/PS       | 24007/0366      |
-| Namubiru Kirabo Bakyaita     | 24/U/1038          | 24007/1038      |
-| Namayanja Mary Prechard      | 24/U/09946/PS      | 24007/09946     |
+| Name                          | Registration No.   | Student No.     |
+|------------------------------ |--------------------|-----------------|
+| Sekibaala Mark                | 24/U/11007/PS      | 2400711007     |
+| Akello Lilian                 | 24/U/0134/PS       | 2400713144      |
+| Asiimwe Isaac                 | 24/U/0366/PS       | 24007/0366      |
+| Namubiru Kirabo Bakyaita      | 24/U/1038          | 24007/1038      |
+| Namayanja Mary Prechard       | 24/U/09946/PS      | 24007/09946     |
 
 ---
 
