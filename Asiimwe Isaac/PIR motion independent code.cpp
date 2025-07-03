@@ -1,7 +1,7 @@
 #include <Arduino.h> // Even though you’re programming for ESP32, the Arduino.h header is still required in certain contexts if you’re writing raw C++ sketches or separating code into .cpp files, without using the Arduino IDE directly.
 
 // Pin Definitions
-#define PIR_PIN 15     // PIR output pin connected to GPIO 15
+#define PIR_PIN 11    // PIR output pin connected to GPIO 15
 #define LED_PIN 2      // Onboard or external LED
 
 void setup() {
