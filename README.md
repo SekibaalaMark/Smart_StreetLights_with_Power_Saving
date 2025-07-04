@@ -47,10 +47,10 @@ Our Smart Streetlights system addresses these inefficiencies using:
 | Name                          | Registration No.   | Student No.     |
 |------------------------------ |--------------------|-----------------|
 | Sekibaala Mark                | 24/U/11007/PS      | 2400711007     |
-| Akello Lilian                 | 24/U/0134/PS       | 2400713144      |
-| Asiimwe Isaac                 | 24/U/0366/PS       | 24007/0366      |
-| Namubiru Kirabo Bakyaita      | 24/U/1038          | 24007/1038      |
-| Namayanja Mary Prechard       | 24/U/09946/PS      | 24007/09946     |
+| Akello Lilian                 | 24/U/0134/PS       | 2400703142     |
+| Asiimwe Isaac                 | 24/U/0366/PS       | 2400703765     |
+| Namubiru Kirabo Bakyaita      | 24/U/1038          | 240071038      |
+| Namayanja Mary Prechard       | 24/U/09046/PS      | 2400709046     |
 
 ---
 
