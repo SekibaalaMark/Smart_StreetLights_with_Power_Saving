@@ -18,7 +18,7 @@ void loop() {
 
   if (pirState == HIGH) {
     digitalWrite(LED_PIN, HIGH);        // Turn LED ON
-    Serial.println("🔵 Motion Detected!");
+    Serial.println("🔵 Motion Detected!!");
   } else {
     digitalWrite(LED_PIN, LOW);         // Turn LED OFF
     Serial.println(" No Motion");
