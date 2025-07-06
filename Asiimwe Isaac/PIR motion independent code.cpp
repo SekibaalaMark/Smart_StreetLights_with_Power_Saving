@@ -21,7 +21,7 @@ void loop() {
     Serial.println("🔵 Motion Detected!!");
   } else {
     digitalWrite(LED_PIN, LOW);         // Turn LED OFF
-    Serial.println(" There is no Motion!!!!");
+    Serial.println(" There is no motion!!!!");
   }
 
   delay(1000); // Check every second
