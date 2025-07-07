@@ -5,7 +5,7 @@
 #define LED_PIN 2      // Onboard or external LED
 
 void setup() {
-  Serial.begin(115200);
+  Serial.begin(11520);
 
   pinMode(PIR_PIN, INPUT);      // PIR sensor as input
   pinMode(LED_PIN, OUTPUT);     // LED as output
