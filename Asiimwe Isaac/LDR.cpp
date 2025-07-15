@@ -36,5 +36,5 @@ void loop() {
     Serial.println("LED: OFF");
   }
 
-  delay(20000); // Wait 2 seconds before next read
+  delay(2000); // Wait 2 seconds before next read
 }
