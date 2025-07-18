@@ -89,8 +89,6 @@ void loop() {
   
   // Control LED
   if (shouldTurnOnLED) {
-    //digitalWrite(LED_PIN, HIGH);
-    //Serial.println("LED ON - " + reason);
     if(pirState==HIGH){
       ledcWrite(LED_PIN,fullBrightness);
       reason += " and Motion is detected"
@@ -108,7 +106,6 @@ void loop() {
   Serial.printf("Time: %02d:%02d:%02d\n", now.hour(), now.minute(), now.second());
   Serial.printf("Date: %02d/%02d/%04d\n", now.day(), now.month(), now.year());
   Serial.println("Night time: " + String(isNightTime ? "Yes" : "No"));
-  //Serial.println("LDR Value: " + String(ldrValue) + " (lower = darker)");
   Serial.println("LED Status: " + String(shouldTurnOnLED ? "ON" : "OFF"));
   if (shouldTurnOnLED) {
     Serial.println("Reason: " + reason);
