@@ -70,8 +70,6 @@ void loop() {
   // Determine if it's night time
   bool isNightTime = false;
   if (nightStartHour > nightEndHour) {
-    // Night spans midnight (e.g., 18:00 to 06:00)
-    //isNightTime = (currentHour >= nightStartHour || currentHour < nightEndHour);
     if(currentHour >= nightStartHour && currentHour <=nightEndHour){
       isNightTime = true;
     }
