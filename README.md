@@ -42,6 +42,38 @@ Our Smart Streetlights system addresses these inefficiencies using:
 
 ---
 
+## 📟 How to Run the Code
+
+1. **Connect ESP32** to your computer via USB.
+
+2. **Open Arduino IDE**, and load the `.ino` file from the cloned project folder.
+
+3. **Select the correct board and port**:
+   - Go to **Tools → Board → ESP32 Dev Module**
+   - Go to **Tools → Port**, and select the correct **COM port**.
+
+4. **Verify the code**:
+   - Click the ✅ **checkmark** in the toolbar to compile.
+
+5. **Upload the code**:
+   - Click the ➡️ **arrow button** to upload the compiled code to the ESP32.
+
+6. **Monitor Serial Output** (optional but helpful):
+   - Go to **Tools → Serial Monitor** to view real-time sensor readings and logs.
+
+7. **Power and connect the hardware**:
+   - Connect LDR, PIR, RTC, and LED circuit as per your wiring diagram.
+   - If you plan to disconnect USB, ensure a stable **5V power source** is used to power the ESP32.
+
+---
+
+## ⚠️ Notes
+
+- System only activates lighting control between 17:00 and 07:00 based on DS3231 RTC.
+- LED brightness increases when motion is detected, and decreases when no motion is sensed.
+- LDR adjusts the LED intensity based on surrounding light.
+
+
 ## 👥 Group Members
 
 | Name                          | Registration No.   | Student No.     |
