@@ -69,7 +69,7 @@ Our Smart Streetlights system addresses these inefficiencies using:
 
 ## ⚠️ Notes
 
-- System only activates lighting control between 17:00 and 07:00 based on DS3231 RTC.
+-The night window runs from 6p.m to 6a.m
 - LED brightness increases when motion is detected, and decreases when no motion is sensed.
 - LDR adjusts the LED intensity based on surrounding light.
 
