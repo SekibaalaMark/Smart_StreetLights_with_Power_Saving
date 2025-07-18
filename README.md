@@ -44,12 +44,12 @@ Our Smart Streetlights system addresses these inefficiencies using:
 
 ## 📟 How to Run the Code
 
-1. **Connect ESP32** to your computer via USB.
+1. **Connect ESP32** to the computer via USB.
 
-2. **Open Arduino IDE**, and load the `.ino` file from the cloned project folder.
+2. **Open Arduino IDE**, and load the  file from the cloned project folder.
 
 3. **Select the correct board and port**:
-   - Go to **Tools → Board → ESP32 Dev Module**
+   - Go to **Tools → Board → e.g ESP32 Dev Module**
    - Go to **Tools → Port**, and select the correct **COM port**.
 
 4. **Verify the code**:
@@ -57,13 +57,13 @@ Our Smart Streetlights system addresses these inefficiencies using:
 
 5. **Upload the code**:
    - Click the ➡️ **arrow button** to upload the compiled code to the ESP32.
+   - Click the ➡️ **boot button** on ESP32 boot and write new firm ware on the ESP32.
 
-6. **Monitor Serial Output** (optional but helpful):
+6. **Monitor Serial Output**:
    - Go to **Tools → Serial Monitor** to view real-time sensor readings and logs.
 
 7. **Power and connect the hardware**:
-   - Connect LDR, PIR, RTC, and LED circuit as per your wiring diagram.
-   - If you plan to disconnect USB, ensure a stable **5V power source** is used to power the ESP32.
+   - Connect LDR, PIR, RTC, and LED circuit as the indicated pins in the code base.
 
 ---
 
