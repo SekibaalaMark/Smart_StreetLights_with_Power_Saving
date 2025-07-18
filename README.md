@@ -75,6 +75,11 @@ Our Smart Streetlights system addresses these inefficiencies using:
 
 ---
 
+## 🖼️ System Overview Diagram
+
+![Smart Streetlights Diagram](smart_street_lights.jpg)
+
+
 ### 🔌 Installation
 
 1. **Clone this repository**:
