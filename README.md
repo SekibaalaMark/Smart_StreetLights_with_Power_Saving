@@ -61,17 +61,16 @@ Our Smart Streetlights system addresses these inefficiencies using:
 - **Hardware**:  
   - Microcontroller --ESP32  
   - Light sensor (LDR)  
-  - Motion sensor (PIR sensor 
+  - Motion sensor (PIR sensor) 
   - RTC Module (DS3231)  
   - 10mm LED lights  
   - Power supply
   - Potentiometer
   - 100 ohms resistors
-  - Mosfet
 
 - **Software**:  
   - Arduino IDE 
-  - Required libraries (Wire, RTClib, etc.)
+  - Required libraries (Wire, RTClib.)
 
 ---
 
