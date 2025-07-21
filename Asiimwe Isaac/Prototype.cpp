@@ -13,7 +13,7 @@
 RTC_DS3231 rtc;
 
 // Threshold values
-int dayThreshold = 3500;     // Very dark threshold for daytime
+int dayThreshold = 35000;     // Very dark threshold for daytime
 int nightThreshold = 2500;  // Normal darkness threshold for nighttime
 
 // Time settings (24-hour format)
