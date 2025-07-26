@@ -42,14 +42,46 @@ Our Smart Streetlights system addresses these inefficiencies using:
 
 ---
 
+## 📟 How to Run the Code
+
+1. **Connect ESP32** to the computer via USB.
+
+2. **Open Arduino IDE**, and load the  file from the cloned project folder.
+
+3. **Select the correct board and port**:
+   - Go to **Tools → Board → e.g ESP32 Dev Module**
+   - Go to **Tools → Port**, and select the correct **COM port**.
+
+4. **Verify the code**:
+   - Click the ✅ **checkmark** in the toolbar to compile.
+
+5. **Upload the code**:
+   - Click the ➡️ **arrow button** to upload the compiled code to the ESP32.
+   - Click the ➡️ **boot button** on ESP32 boot and write new firm ware on the ESP32.
+
+6. **Monitor Serial Output**:
+   - Go to **Tools → Serial Monitor** to view real-time sensor readings and logs.
+
+7. **Power and connect the hardware**:
+   - Connect LDR, PIR, RTC, and LED circuit as the indicated pins in the code base.
+
+---
+
+## ⚠️ Notes
+
+-The night window runs from 6p.m to 6a.m
+- LED brightness increases when motion is detected, and decreases when no motion is sensed.
+- LDR adjusts the LED intensity based on surrounding light.
+
+
 ## 👥 Group Members
 
 | Name                          | Registration No.   | Student No.     |
 |------------------------------ |--------------------|-----------------|
 | Sekibaala Mark                | 24/U/11007/PS      | 2400711007     |
-| Akello Lilian                 | 24/U/0134/PS       | 2400703142     |
-| Asiimwe Isaac                 | 24/U/0366/PS       | 2400703765     |
-| Namubiru Kirabo Bakyaita      | 24/U/1038          | 240071038      |
+| Akello Lilian                 | 24/U/03142/PS      | 2400703142     |
+| Asiimwe Isaac                 | 24/U/03765/PS      | 2400703765     |
+| Namubiru Kirabo Bakyaita      | 24/U/1038          | 2400701038      |
 | Namayanja Mary Prechard       | 24/U/09046/PS      | 2400709046     |
 
 ---
@@ -61,17 +93,16 @@ Our Smart Streetlights system addresses these inefficiencies using:
 - **Hardware**:  
   - Microcontroller --ESP32  
   - Light sensor (LDR)  
-  - Motion sensor (PIR sensor 
+  - Motion sensor (PIR sensor) 
   - RTC Module (DS3231)  
   - 10mm LED lights  
   - Power supply
   - Potentiometer
   - 100 ohms resistors
-  - Mosfet
 
 - **Software**:  
   - Arduino IDE 
-  - Required libraries (Wire, RTClib, etc.)
+  - Required libraries (Wire, RTClib.)
 
 ---
 
