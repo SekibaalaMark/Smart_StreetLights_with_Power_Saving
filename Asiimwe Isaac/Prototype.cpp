@@ -121,8 +121,4 @@ void loop() {
   delay(3000); // Check every 3 seconds
 }
 
-// Function to manually set RTC time (call this in setup if needed)
-void setRTCTime(int year, int month, int day, int hour, int minute, int second) {
-  rtc.adjust(DateTime(year, month, day, hour, minute, second));
-  Serial.println("RTC time set successfully");
-}
+// Function to manually set RTC 
