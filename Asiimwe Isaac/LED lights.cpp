@@ -1,0 +1,39 @@
+#include <Arduino.h>
+
+// LED pin (must be PWM-capable)
+#define LED_PIN 2  // Built-in LED on most ESP32 boards
+
+// PWM configuration
+const int pwmChannel = 0;
+const int pwmFreq = 5000;        // 5 kHz PWM frequency
+const int pwmResolution = 8;     // 8-bit resolution: 0-255 brightness
+
+void setup() {
+  Serial.begin(115200);
+
+  // Set up PWM on LED pin
+  ledcSetup(pwmChannel, pwmFreq, pwmResolution);
+  ledcAttachPin(LED_PIN, pwmChannel);
+
+  Serial.println("💡 LED PWM Brightness Control Initialized");
+}
+
+void loop() {
+  // Gradually increase brightness
+  for (int brightness = 0; brightness <= 255; brightness += 5) {
+    ledcWrite(pwmChannel, brightness);
+    Serial.print("Brightness ↑: ");
+    Serial.println(brightness);
+    delay(30);
+  }
+
+  // Gradually decrease brightness
+  for (int brightness = 255; brightness >= 0; brightness -= 5) {
+    ledcWrite(pwmChannel, brightness);
+    Serial.print("Brightness ↓: ");
+    Serial.println(brightness);
+    delay(30);
+  }
+
+  delay(500);
+}
