@@ -1,0 +1,50 @@
+//PWM set up
+const int pwmFreq = 5000;
+const int pwmResolution = 8;
+
+//dimming light levels
+const int dimBrightness = 30;
+const int fullBrightness = 255;
+const int NO_Light = 0;
+
+void setup() {
+  Serial.begin(115200);
+  
+  // Initialize pins
+  ledcAttach(LED_PIN, pwmFreq, pwmResolution);
+  ledcWrite(LED_PIN, NO_Light);
+
+  // Determine if it's night time
+  bool isNightTime = false;
+  if (nightStartHour > nightEndHour) {
+    // Night spans midnight (e.g., 18:00 to 06:00)
+    isNightTime = (currentHour >= nightStartHour || currentHour < nightEndHour);
+  } else {
+    // Night doesn't span midnight
+    isNightTime = (currentHour >= nightStartHour && currentHour < nightEndHour);
+  }
+  
+  // Determine if LED should be on
+  bool shouldTurnOnLED = false;
+  String reason = "";
+  
+  if (isNightTime && ldrValue >= nightThreshold) {
+    shouldTurnOnLED = true;
+    reason = "Night time and dark";
+  } else if (!isNightTime && ldrValue >= dayThreshold) {
+    shouldTurnOnLED = true;
+    reason = "Extremely dark during day";
+  }
+  
+  // Control LED
+  if (shouldTurnOnLED) {
+    if (pirState == HIGH) {
+      ledcWrite(LED_PIN, fullBrightness);
+      reason += " and Motion is detected";
+    } else {
+      ledcWrite(LED_PIN, dimBrightness);
+      reason += " and No Motion is detected";
+    }
+  } else {
+    ledcWrite(LED_PIN, NO_Light);
+  }
