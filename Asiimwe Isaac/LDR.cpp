@@ -1,4 +1,4 @@
-#include <Arduino.h>
+#include <Arduino.h> // Even though you’re programming for ESP32, the Arduino.h header is still required in certain contexts if you’re writing raw C++ sketches or separating code into .cpp files, without using the Arduino IDE directly.
 
 // Pin definitions
 #define LDR_PIN 34   // Analog pin connected to LDR
