@@ -1,4 +1,4 @@
-#include <Arduino.h>
+#include <Arduino.h> //Even though you’re programming for ESP32, the Arduino.h header is still required in certain contexts if you’re writing raw C++ sketches or separating code into .cpp files, without using the Arduino IDE directly.
 
 // LED pin (must be PWM-capable)
 #define LED_PIN 2  // Built-in LED on most ESP32 boards
