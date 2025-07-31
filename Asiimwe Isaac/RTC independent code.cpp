@@ -1,5 +1,5 @@
-#include <Wire.h>
-#include <RTClib.h>
+#include <Wire.h>// this encourages I2C communication
+#include <RTClib.h>// this is used by the esp32 to communicate with the RTC module using I2C communication as well.
 
 // I2C Pins for ESP32
 #define SDA_PIN 21
